@@ -20,7 +20,7 @@ public class App
 
 
        for(Personnel personnel : personnels){
-           System.out.println(personnel.getName()+"的工资："+singleton.calculate(personnel.getSalary()));
+           System.out.println(personnel.getName()+"的税费："+singleton.calculate(personnel.getSalary()));
        }
     }
 

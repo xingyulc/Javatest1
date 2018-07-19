@@ -15,10 +15,10 @@ public class App
         for(int i = 101; i <= 200; i++){
             int count = 0;
             for (int j = 2; j < i; j++){
-                if(i % j == 0)
+                if(i % j == 0){
                     count++;
-                else
                     break;
+                }
             }
             if (count == 0)
                 nums.add(i);

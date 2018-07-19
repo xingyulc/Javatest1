@@ -45,8 +45,7 @@ public class LazySingleton {
                         (55000-35000)*0.30+(80000-55000)*0.35+(wageBefore-80000)*0.45;
             }
         }
-        double wageAfter = wageBefore - tax;
-        return wageAfter;
+        return tax;
     }
 
 
